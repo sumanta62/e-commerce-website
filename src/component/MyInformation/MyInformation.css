@@ -2,3 +2,8 @@
     width: 60px;
     border-radius: 50%;
 }
+.bg{
+    background-color: rgb(233, 222, 222);
+    border-radius: 5px;
+    
+}

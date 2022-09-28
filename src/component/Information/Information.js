@@ -21,17 +21,13 @@ const Information = () => {
             <p className='fw-bold'>Select today’s exercise</p>
             <div className="row">
                 <div className="display-activety col-lg-9">
-                    <div className="row">
-                    {/* <div className="singal-club"> */}
-                        <div className="col-lg-4 gap-4">
+                    <div className="singal-club">
                             {
                                 card.map(cards => <GimClub item={cards} key={cards.id}></GimClub>)
                             }
-                        </div>
                     </div>
                 </div>
                 <div className="my-informaion col-lg-3">
-                    <h1>fgvdjvkfdl</h1>
                     <MyInformation></MyInformation>
                 </div>
             </div>
