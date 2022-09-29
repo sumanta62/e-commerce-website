@@ -46,7 +46,7 @@ const Information = () => {
             </div>
             <section class="container my-5">
             <div className="footer text-center">
-                <h6>Copyright 2022 News Magazine</h6>
+                <h6>Copyright 2022 GIM-Active-club</h6>
             </div>
         </section>
         </div>
