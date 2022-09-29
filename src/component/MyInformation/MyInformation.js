@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import imgs from '../images/pic preview.png'
 import './MyInformation.css'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 
 const MyInformation = ({ about }) => {
     const [time, setTime] = useState([0]);
+    const notify = () => toast("Activity Completed!");
 
     function setTimeAdd(times) {
         setTime(times)
@@ -66,7 +69,8 @@ const MyInformation = ({ about }) => {
                 <p>Break time: </p>
                 <p><span >{time} second</span></p>
             </div>
-            <button className='btn btn-primary'>Activity Completed</button>
+            <button onClick={notify} className='btn btn-primary'>Activity Completed</button>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
