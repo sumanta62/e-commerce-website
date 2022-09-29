@@ -12,9 +12,9 @@ const Information = () => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setCard(data))
-    }, [])
-
+    }, []);
     
+
     function handlarAddToCard(selectItems){
         const aboutCard = [...about, selectItems];
         setAbout(aboutCard);
@@ -22,21 +22,21 @@ const Information = () => {
 
   
     return (
-        <div className='information container mt-lg-5'>
+        <div className='information  mt-5'>
             <div className="title-logo d-flex align-items-center gap-2 mb-4">
                 <img src={logo} alt="" />
                 <h2>GIM-Active-club</h2>
             </div>
             <p className='fw-bold'>Select today’s exercise</p>
             <div className="row mt-4">
-                <div className="display-activety col-lg-9 col-md-8">
+                <div className="display-activety col-md-12 col-lg-9 g-4">
                     <div className="singal-club">
                             {
                                 card.map(cards => <GimClub item={cards} key={cards.id} handlarAddToCard={handlarAddToCard}></GimClub>)
                             }
                     </div>
                 </div>
-                <div className="my-informaion col-lg-3 col-md-4">
+                <div className="my-informaion col-md-12 col-lg-3 g-4">
                     <MyInformation about={about}></MyInformation>
                 </div>
             </div>

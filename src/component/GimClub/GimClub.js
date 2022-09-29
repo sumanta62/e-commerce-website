@@ -6,7 +6,7 @@ const GimClub = (props) => {
     const {img, name, age, time} = props.item;
 
     return (
-        <div>
+        <div className=''>
            <div className="card">
                 <img src={img} alt=""  className='w-100 '/>
                 <div className="card-body">

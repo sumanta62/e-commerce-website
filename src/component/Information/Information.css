@@ -1,3 +1,7 @@
+.information{
+    width: 90%;
+    margin: auto;
+}
 .title-logo img {
     width: 60px;
 }
@@ -21,10 +25,7 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
-    .container{
-        width: 90%;
-        margin: auto;
-    }
+
 }
 /* dextop */
 @media screen and (min-width:1193px) {
