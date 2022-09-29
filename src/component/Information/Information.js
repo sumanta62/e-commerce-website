@@ -3,6 +3,7 @@ import logo from '../images/logo.png';
 import GimClub from '../GimClub/GimClub';
 import './Information.css'
 import MyInformation from '../MyInformation/MyInformation';
+import Blog from '../Blog/Blog';
 
 const Information = () => {
     const [card, setCard] = useState([]);
@@ -40,6 +41,14 @@ const Information = () => {
                     <MyInformation about={about}></MyInformation>
                 </div>
             </div>
+            <div>
+                <Blog></Blog>
+            </div>
+            <section class="container my-5">
+            <div className="footer text-center">
+                <h6>Copyright 2022 News Magazine</h6>
+            </div>
+        </section>
         </div>
     );
 };
