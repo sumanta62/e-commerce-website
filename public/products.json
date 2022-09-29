@@ -13,7 +13,7 @@
     "category": "Men's Sneaker",
     "name": "Big Pappa",
     "age": "22-27",
-    "time": 60,
+    "time": 45,
     "img": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?cs=srgb&dl=pexels-leon-ardho-1552242.jpg&fm=jpg",
     "shipping": 14
   },
@@ -22,7 +22,7 @@
     "category": "Men's Sneaker",
     "name": "Aesthetic God",
     "age": "25-30",
-    "time": 30,
+    "time": 20,
     "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victor-freitas-841130.jpg&fm=jpg",
     "shipping": 1
   },
@@ -31,7 +31,7 @@
     "category": "Men's Sneaker",
     "name": "Armata",
     "age": "20-24",
-    "time": 40,
+    "time": 60,
     "img": "https://images.pexels.com/photos/703014/pexels-photo-703014.jpeg?cs=srgb&dl=pexels-victor-freitas-703014.jpg&fm=jpg",
     "shipping": 32
   },
@@ -40,8 +40,8 @@
     "category": "Men's Sneaker",
     "name": "Beef Jerky",
     "age": "23-28",
-    "time":60,
-    "img": "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-gorak-1229356.jpg&fm=jpg",
+    "time":30,
+    "img": "https://images.pexels.com/photos/136404/pexels-photo-136404.jpeg?cs=srgb&dl=pexels-scott-webb-136404.jpg&fm=jpg",
     "shipping": 49
   },
   {
@@ -49,8 +49,8 @@
     "category": "Men's Sneaker",
     "name": "Bicep Charles",
     "age": "22-27",
-    "time": 20,
-    "img": "https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?cs=srgb&dl=pexels-pixabay-38630.jpg&fm=jpg",
+    "time": 45,
+    "img": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?cs=srgb&dl=pexels-pixabay-414029.jpg&fm=jpg",
     "shipping": 19
   }
   
